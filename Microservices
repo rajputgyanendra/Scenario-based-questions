@@ -1,0 +1,163 @@
+Scenario: 1
+In an e-commerce system, when an order is placed:
+•	Order DB is updated
+•	Inventory should reduce
+•	Payment should be processed
+But if one step fails, data becomes inconsistent.
+ 
+ 
+1. How will you maintain consistency across services?
+ 
+why not 2-phase commit?
+
+Scenario:
+A service response time is high due to multiple downstream calls.
+ 
+How will you optimize performance?
+
+Scenario:
+You updated a service API, but existing clients still use old APIs.
+ 
+How will you manage backward compatibility?
+
+Scenario:
+You need to release a new version of a service without downtime.
+ 
+•	How will you deploy safely?
+ 
+---------------------------------------
+Scenario:
+Multiple microservices need secure communication and user authentication.
+ 
+•	How will you secure APIs?
+•	How will services trust each other?
+
+
+Scenario:
+
+A request fails, but you don’t know which microservice caused the issue.
+ 
+ 
+•	How will you trace requests across services?
+ 
+Scenario:
+
+You need to release a new version of a service without downtime.
+ 
+•	How will you deploy safely?
+
+
+ Scenario:
+Your system has 10+ microservices, and clients are calling each one directly.
+ 
+•	What problems can arise and how to improve architecture?
+ 
+No central security
+Tight coupling
+Traffic concerns
+scaling and monitoring
+optimistic?
+
+
+Scenario:
+You deployed multiple instances of services dynamically.
+ 
+•	How will services find each other?
+ 
+service registry
+service discovery
+DNS
+ 
+How  --> sample yaml  --> attiributes  --> ??
+
+
+Scenario:
+One microservice in your system is crashing frequently.
+ 
+How will you ensure the system still works?
+
+
+Scenario:
+Multiple services need access to customer data.
+ 
+ 
+Will you share a single database or separate databases?
+How will you handle duplication of data?
+---------------------------
+
+Scenario:
+Multiple services need access to customer data.
+ 
+ 
+Will you share a single database or separate databases?
+
+Scenario:
+You have two microservices: Order Service and Payment Service. Sometimes, the Payment Service is slow or temporarily unavailable
+ 
+How will you handle communication between these services?
+
+
+Scenario:
+In an e-commerce system, when an order is placed:
+•	Order DB is updated
+•	Inventory should reduce
+•	Payment should be processed
+But if one step fails, data becomes inconsistent.
+ 
+ 
+1. How will you maintain consistency across services?
+ 
+why not 2-phase commit?
+
+
+What is Kubernetes?
+What is Kubernetes Scalability?
+ 
+How do we manage logs? Inside container or outside container?
+What is the advantage of storing logs outside the container?
+What is a Pod?
+Can we have multiple containers in the same Pod?
+ 
+What is the best way to manage replicas: same node or different nodes?
+ 
+What is the advantage of managing replicas on different nodes?
+ 
+What is a Master Node?
+
+Advantages of Monothic  archi?
+
+ 
+Java (Core, 8/11/17 features, Design Patterns, Unit Testing)
+
+JPA, JDBC, Hibernate, SQL
+
+Spring Core, Spring Boot, Actuators, Data JPA
+
+Microservices (API Gateway, CQRS, SAGA, Service Discovery)
+
+DevOps (VCS, CI/CD, Docker, Kubernetes, Maven)
+
+Knowledge of AWS services will be added advantage.
+
+ 1. Decomposition Patterns
+2. Communication Patterns
+3. Data Management Patterns
+4. Reliability & Resilience Patterns
+5. Service Discovery Patterns
+6. Security Patterns
+7. Observability Patterns
+8. Deployment Patterns
+
+Service Discovery
+Circuit Breaker
+Api Gateway
+Saga Design Pattern 
+CQRS Design Pattern
+SAGA(Choregraphy, Orchestration)
+Observer design pattern
+Strategy design pattern
+
+
+
+
+
